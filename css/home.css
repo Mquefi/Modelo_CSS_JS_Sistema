@@ -1,0 +1,56 @@
+.bannerPrincipal{
+    height: 300px;
+    width: 100%;
+}
+
+.novidades {
+    background-color: blue;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.painelEsq {
+    background-color: aqua;
+    flex: 1;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.painelCentr {
+    background-color: rgb(226, 66, 154);
+    flex: 1;
+    padding: 5px;
+    margin-right: 5px;
+
+}
+
+.painelDir {
+    background-color: rgb(66, 226, 101);
+    flex: 2;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.painelDir .se1 {
+    background-color: rgb(100, 152, 231);
+    flex: 1;
+}
+
+.painelDir .se2 {
+    background-color: bisque;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.painelDir .se2 .se2_1 {
+    flex: 2;
+}
+
+.painelDir .se2 .se2_2
+,.painelDir .se2 .se2_3  {
+    flex: 1;
+}
