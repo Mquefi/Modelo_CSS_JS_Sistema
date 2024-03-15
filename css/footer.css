@@ -1,0 +1,23 @@
+.footerSite {
+    height: 350px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerLeft {
+    background-color: aqua;
+    flex: 1;
+}
+
+.footerMiddle {
+    background-color: blueviolet;
+    flex: 1;
+    text-align: center; 
+}
+
+.footerRight {
+    background-color: cadetblue;
+    flex: 1;
+    text-align: right; 
+}
