@@ -152,9 +152,15 @@ document.body Acessa o elemento body da página, trazendo seu conteúdo
 document.body.innerHTML - Traz o conteúdo dentro do elemento.
 
 <button class="classe1" id="id1"></button>
+
 document.querySelector() - Permite selecionar qualquer elemento da página.
+
 document.querySelector('button') - Traz o html do primeiro botão da página.
+
 document.querySelector('button').InnerHTML - Traz o conteúdo dentro das tags <button>, ou seja o nome do botão.
+
 document.querySelector('button').InnerHTML = 'Novo Nome' - Altera o conteúdo dentro das tags <button>, ou seja o nome do botão.
+
 document.querySelector('.classe1') - Traz o conteúdo HTML do objeto que tem a classe = classe1
+
 document.querySelector('button').InnerText = Traz o conteúdo dentro das tags <button>, somente texto, ignorando espaços.
